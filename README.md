@@ -1,6 +1,21 @@
+# Prize
++ SSAFY 공통프로젝트 1등(2020.02)
+
+# 시연영상
++ [SEE 장](https://www.youtube.com/watch?v=snr8gCf6fbk)
+
+<br>
 # 개발 환경 세팅
 <h3>롬복 적용<h3>
 <a>yunyoung1819.tistory.com/95</a>
+  
+#### 클라이언트(Vue.js)
+
+ ```cmd
+ cd .\front
+ npm install
+ npm build
+ ```
 
 
 <h3>Redis 도커 실행<h3>
@@ -41,39 +56,53 @@
 
 ### 시각장애인
 
-* 상품 위치 찾기
-* 상품 확인하기
+### 상품 위치 찾기
++ STT기술을 통해 음성인식의 결과를 백엔드로 전달하고, 백엔드에서 넘어온 결과를 TTS를 통해 휴대폰 기준 8방향을 시각장애인 사용자에게 전달
+ <img src="https://user-images.githubusercontent.com/57394523/115141252-2dce1e00-a076-11eb-924d-ffccc0c7b641.png"  height="500" width="300">
+
+### 상품 확인하기
++ 현재 사진을 찍은 상품이 어떤 상품인지 TTS를 통해 시각장애인 사용자에게 전달
+<img src="https://user-images.githubusercontent.com/57394523/115141325-8c939780-a076-11eb-915c-040ba6ea698e.png"  height="500" width="300">
+
+
 
 ### 비장애인
 
 * 이번주 인기상품
-* 쇼핑리스트
-* 상품찾기
-* 통합검색
-* 최저가 찜목록
-* 상품 상세페이지
+### 쇼핑리스트
++ 장보기 전 쇼핑리스트를 작성하고 대략적 가격을 알 수 있는 기능
+ <img src="https://user-images.githubusercontent.com/57394523/115141007-25c1ae80-a075-11eb-8f84-9071a4ad2109.png"  height="500" width="300">
 
 
 
 
-# 📜회의록
+### 상품찾기
++ 카메라로 상품 사진을 찍으면 인식해 최저가 링크 + 앱 내 리뷰를 띄어주는 기능
 
-**SubPJT3 1주차 - 핵심기능구현, 로컬 배포**
 
-[2021.02.01(월)_회의록](https://www.notion.so/2021-02-01-_-83559ab29920491885d471022358b444) <br>
-[2021.02.02(화)_회의록](https://www.notion.so/2021-02-02-_-96882fb264dc417f81d2d848e793e139) <br>
-[2021.02.03(수)_회의록](https://www.notion.so/2021-02-03-_-91f6fbfdbb6a456b9467931362677f9a) <br>
-[2021.02.04(목)_회의록](https://www.notion.so/2021-02-04-_-2120ad1fd48d4d30a2c1837dfb2d231d) <br>
-[2021.02.05(금)_회의록](https://www.notion.so/2021-02-05-_-c160b7cfd3cf44d7a29500815b984f26) <br>
+  <img src="https://user-images.githubusercontent.com/57394523/115140778-f8c0cc00-a073-11eb-9c2d-e014497d033d.png"  height="500" width="300">
+   <img src="https://user-images.githubusercontent.com/57394523/115141091-87821880-a075-11eb-8dec-7ab1fa9292c1.png"  height="500" width="300">
+    <img src="https://user-images.githubusercontent.com/57394523/115141156-d7f97600-a075-11eb-9d42-7197e4b92a60.png"  height="500" width="300">
+   
 
----
 
-**SubPJT3 2주차 - UI/UX, 도커 배포(젠킨스), UCC**
 
-[2021.02.08(월)_회의록](https://www.notion.so/2021-02-08-_-34c59144de5e4cd2a61f2e80c3f836cb) <br>
-[2021.02.09(화)_회의록](https://www.notion.so/2021-02-09-_-1d537e59e7a245dc8cf43e7033b64aa5) <br>
+### SSG몰 리뷰확인
++ SSG몰의 링크를 통해서 리뷰 확인 가능
+<img src="https://user-images.githubusercontent.com/57394523/115141130-af717c00-a075-11eb-949c-30f35033881d.png"  height="500" width="300">
 
-<br>
+
+### 최저가 찜목록
++ 찜목록을 통해 페이지로 이동 가능 
+<img src="https://user-images.githubusercontent.com/57394523/115141194-fa8b8f00-a075-11eb-82ff-7a732d62ddd1.png"  height="500" width="300">
+<img src="https://user-images.githubusercontent.com/57394523/115141223-0ecf8c00-a076-11eb-8061-3e289cf4e5bf.png"  height="500" width="300">
+
+
+
+
+
+
+
 <br>
 
 # ⚙Tech Stack
